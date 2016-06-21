@@ -1,5 +1,6 @@
-package stepDefinition;
-
+//package stepDefinition;
+/*
+import java.lang.*;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -27,8 +28,10 @@ public class Test_Steps {
  
 	@When("^User enters UserName and Password$")
 	public void user_enters_UserName_and_Password() throws Throwable {
-		driver.findElement(By.id("username_or_email")).sendKeys("ash1par@gmail.com"); 	 
-	    driver.findElement(By.id("password")).sendKeys("monash143");
+		//CharSequence 
+		//String
+		//driver.findElement(By.id("username_or_email")).sendKeys("ash1par@gmail.com"); 	 
+	    //driver.findElement(By.id("password")).sendKeys("monash143");
 	    driver.findElement(By.id("allow")).click();
 		}
  
@@ -48,3 +51,4 @@ public class Test_Steps {
 	}
  
 }
+*/
